@@ -1,0 +1,6 @@
+Patron de conception :
+Builder : Deux façon de créer une partie. Soit par le biais d'une sauvegarde, soit nouvelle création.
+Poids-mouche : Gestion des tuiles.
+Stratégie : Création de la carte.
+Command : Undo-Redo
+Fabrique : Permet de créer les différentes unités selon leur race.

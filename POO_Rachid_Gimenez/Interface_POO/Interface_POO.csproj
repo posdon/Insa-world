@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4F874D51-D473-483B-A350-14F88051996D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Interface_POO</RootNamespace>
+    <AssemblyName>Interface_POO</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="ILoadSaveService.cs" />
+    <Compile Include="ITile.cs" />
+    <Compile Include="ReplayAuxThread.cs" />
+    <Compile Include="ViewModel\RelayCommand.cs" />
+    <Compile Include="ViewModel\ViewModelBase.cs" />
+    <Compile Include="ViewModel\ViewModelGame.cs" />
+    <Compile Include="ViewModel\ViewModelGamePlay.cs" />
+    <Compile Include="ViewModel\ViewModelFileDialog.cs" />
+    <Compile Include="ViewModel\ViewModelMainPage.cs" />
+    <Compile Include="ViewModel\ViewModelMainWindow.cs" />
+    <Compile Include="ViewModel\ViewModelNewGame.cs" />
+    <Compile Include="ViewModel\ViewModelReplayGame.cs" />
+    <Compile Include="ViewModel\ViewModelResultGame.cs" />
+    <Compile Include="ViewModel\ViewModelSelectPlayerInfo.cs" />
+    <Compile Include="View\GamePlay.xaml.cs">
+      <DependentUpon>GamePlay.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\LoadGame.xaml.cs">
+      <DependentUpon>LoadGame.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ReplayGame.xaml.cs">
+      <DependentUpon>ReplayGame.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ResultGame.xaml.cs">
+      <DependentUpon>ResultGame.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\SelectPlayerInfo.xaml.cs">
+      <DependentUpon>SelectPlayerInfo.xaml</DependentUpon>
+    </Compile>
+    <Page Include="View\GamePlay.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\LoadGame.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="View\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="View\NewGame.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\ReplayGame.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\ResultGame.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\SelectPlayerInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="View\NewGame.xaml.cs">
+      <DependentUpon>NewGame.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Cyclops.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Cerberus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Centaur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\POO_Rachid_Gimenez\POO_Rachid_Gimenez.csproj">
+      <Project>{b474db02-fabf-47f8-a786-139e3535e2bf}</Project>
+      <Name>POO_Rachid_Gimenez</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\desertTile.jpg" />
+    <Resource Include="Images\grassTile.jpg" />
+    <Resource Include="Images\swampTile.jpg" />
+    <Resource Include="Images\volcanoTile.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\desertCentaurTile.jpg" />
+    <Resource Include="Images\desertCerberusTile.jpg" />
+    <Resource Include="Images\desertCyclopsTile.jpg" />
+    <Resource Include="Images\grassCentaurTile.jpg" />
+    <Resource Include="Images\grassCerberusTile.jpg" />
+    <Resource Include="Images\grassCyclopsTile.jpg" />
+    <Resource Include="Images\swampCentaurTile.jpg" />
+    <Resource Include="Images\swampCerberusTile.jpg" />
+    <Resource Include="Images\swampCyclopsTile.jpg" />
+    <Resource Include="Images\volcanoCentaurTile.jpg" />
+    <Resource Include="Images\volcanoCerberusTile.jpg" />
+    <Resource Include="Images\volcanoCyclopsTile.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\desertCentaurTileCurr.jpg" />
+    <Resource Include="Images\desertCerberusTileCurr.jpg" />
+    <Resource Include="Images\desertCyclopsTileCurr.jpg" />
+    <Resource Include="Images\grassCentaurTileCurr.jpg" />
+    <Resource Include="Images\grassCerberusTileCurr.jpg" />
+    <Resource Include="Images\grassCyclopsTileCurr.jpg" />
+    <Resource Include="Images\swampCentaurTileCurr.jpg" />
+    <Resource Include="Images\swampCerberusTileCurr.jpg" />
+    <Resource Include="Images\swampCyclopsTileCurr.jpg" />
+    <Resource Include="Images\volcanoCentaurTileCurr.jpg" />
+    <Resource Include="Images\volcanoCerberusTileCurr.jpg" />
+    <Resource Include="Images\volcanoCyclopsTileCurr.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\fond.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\fond1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\fond3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\fond4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\fondeb.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

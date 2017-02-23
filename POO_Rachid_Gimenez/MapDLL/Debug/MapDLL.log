@@ -1,0 +1,8 @@
+﻿  stdafx.cpp
+  MapDLL.cpp
+  dll.cpp
+c:\users\alexandre\documents\visual studio 2013\projects\poo\poo_rachid_gimenez\poo_rachid_gimenez\mapdll\dll.cpp(54): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+  Génération de code en cours...
+  dllmain.cpp
+     Création de la bibliothèque C:\Users\Alexandre\Documents\Visual Studio 2013\Projects\POO\POO_RACHID_GIMENEZ\POO_Rachid_Gimenez\Debug\MapDLL.lib et de l'objet C:\Users\Alexandre\Documents\Visual Studio 2013\Projects\POO\POO_RACHID_GIMENEZ\POO_Rachid_Gimenez\Debug\MapDLL.exp
+  MapDLL.vcxproj -> C:\Users\Alexandre\Documents\Visual Studio 2013\Projects\POO\POO_RACHID_GIMENEZ\POO_Rachid_Gimenez\Debug\MapDLL.dll

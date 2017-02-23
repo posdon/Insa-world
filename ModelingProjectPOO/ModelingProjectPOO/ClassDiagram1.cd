@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="POO_Rachid_Gimenez.Game">
+    <Position X="1.5" Y="0.5" Width="18.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAgQAAABKAAACIAAKAAAEAEIEAAAIAAABAAQAAEAQ=</HashCode>
+      <FileName>Game.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Map" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Player" />
+      <Property Name="Action" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="POO_Rachid_Gimenez.Player">
+    <Position X="12.75" Y="6.25" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>QAEAAAAAAAAAAAAAAAAAAAQAAAEAAAAAAIAAgAAAAAA=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="POO_Rachid_Gimenez.Map">
+    <Position X="1.5" Y="5.75" Width="11" />
+    <TypeIdentifier>
+      <HashCode>AYJAACAAEAAAQAGAAAACBFEAAAAAACAAQIAAAAAAAAA=</HashCode>
+      <FileName>Map.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="POO_Rachid_Gimenez.Cerberus">
+    <Position X="14.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cerberus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="POO_Rachid_Gimenez.Centaur">
+    <Position X="14.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Centaur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="POO_Rachid_Gimenez.Cyclops">
+    <Position X="14.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cyclops.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="POO_Rachid_Gimenez.Entity">
+    <Position X="11.25" Y="11" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>QAACAACAAYAAAAAAAAAAEQAAAMCAAAAAEAAAAAAAAMA=</HashCode>
+      <FileName>Entity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="POO_Rachid_Gimenez.Volcano">
+    <Position X="7" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Volcano.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="POO_Rachid_Gimenez.Desert">
+    <Position X="9" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Desert.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="POO_Rachid_Gimenez.Swamp">
+    <Position X="7" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Swamp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="POO_Rachid_Gimenez.Plain">
+    <Position X="9" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Plain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="POO_Rachid_Gimenez.RaceFactory">
+    <Position X="16.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>RaceFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="POO_Rachid_Gimenez.TileFactory">
+    <Position X="5.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAQAAAAQBAAAAAAQAAA=</HashCode>
+      <FileName>TileFactory.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="TileDesert" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="POO_Rachid_Gimenez.StrategieMapSmall">
+    <Position X="3.25" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategieMapSmall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="POO_Rachid_Gimenez.StrategieMapDemo">
+    <Position X="5" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategieMapDemo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="POO_Rachid_Gimenez.StrategieMapStandard">
+    <Position X="1.5" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrategieMapStandard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="POO_Rachid_Gimenez.GameBuilder">
+    <Position X="18.25" Y="8.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAIAAAAAAAAAAAYAAAQAAAAA=</HashCode>
+      <FileName>GameBuilder.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Map" />
+      <Property Name="Player" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="POO_Rachid_Gimenez.GameBuilderSaved">
+    <Position X="18.25" Y="11" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameBuilderSaved.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="POO_Rachid_Gimenez.GameBuilderUnsaved">
+    <Position X="20.5" Y="10.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAEAAAAAAgAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>GameBuilderUnsaved.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="POO_Rachid_Gimenez.StrategieMapImpl">
+    <Position X="3.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAQAAAAAAAAAAAAAAAAAAgABAAQAAAAAAgEAYAAA=</HashCode>
+      <FileName>StrategieMapImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="POO_Rachid_Gimenez.RaceImpl">
+    <Position X="16.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAABgAABAAAAAABgAAQAgAAEABAABAAAABAAAAIA=</HashCode>
+      <FileName>RaceImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="POO_Rachid_Gimenez.TileImpl">
+    <Position X="8" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TileImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="POO_Rachid_Gimenez.MoveAction">
+    <Position X="19.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAABAAAAAAAAAAAAAACAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>MoveAction.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="POO_Rachid_Gimenez.FightAction">
+    <Position X="21.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAIACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FightAction.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="POO_Rachid_Gimenez.GamBuilderReplay">
+    <Position X="20.75" Y="8.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GamBuilderReplay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="POO_Rachid_Gimenez.HealAction">
+    <Position X="17.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HealAction.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="POO_Rachid_Gimenez.Race">
+    <Position X="14.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABgAAAAAAAAAAgAAAABAAEAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Race.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="POO_Rachid_Gimenez.Tile">
+    <Position X="7.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tile.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="POO_Rachid_Gimenez.StrategieMap">
+    <Position X="3.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAYAAA=</HashCode>
+      <FileName>StrategieMap.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="POO_Rachid_Gimenez.Action">
+    <Position X="21.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Action.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

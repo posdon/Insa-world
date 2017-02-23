@@ -1,0 +1,16 @@
+C:\Users\Mohamed\Documents\Visual Studio 2013\Projects\POO_RACHID_GIMENEZ\POO_Rachid_Gimenez\TestWrapper\obj\Debug\TestWrapper.csprojResolveAssemblyReference.cache
+C:\Users\agimenez\Documents\Visual Studio 2013\Projects\cloneGit\POO_RACHID_GIMENEZ\POO_Rachid_Gimenez\TestWrapper\bin\Debug\TestWrapper.dll
+C:\Users\agimenez\Documents\Visual Studio 2013\Projects\cloneGit\POO_RACHID_GIMENEZ\POO_Rachid_Gimenez\TestWrapper\bin\Debug\TestWrapper.pdb
+C:\Users\agimenez\Documents\Visual Studio 2013\Projects\cloneGit\POO_RACHID_GIMENEZ\POO_Rachid_Gimenez\TestWrapper\bin\Debug\POO_Rachid_Gimenez.dll
+C:\Users\agimenez\Documents\Visual Studio 2013\Projects\cloneGit\POO_RACHID_GIMENEZ\POO_Rachid_Gimenez\TestWrapper\bin\Debug\POO_Rachid_Gimenez.pdb
+C:\Users\agimenez\Documents\Visual Studio 2013\Projects\cloneGit\POO_RACHID_GIMENEZ\POO_Rachid_Gimenez\TestWrapper\obj\Debug\TestWrapper.csprojResolveAssemblyReference.cache
+C:\Users\agimenez\Documents\Visual Studio 2013\Projects\cloneGit\POO_RACHID_GIMENEZ\POO_Rachid_Gimenez\TestWrapper\obj\Debug\TestWrapper.dll
+C:\Users\agimenez\Documents\Visual Studio 2013\Projects\cloneGit\POO_RACHID_GIMENEZ\POO_Rachid_Gimenez\TestWrapper\obj\Debug\TestWrapper.pdb
+C:\Users\Alexandre\Documents\Visual Studio 2013\Projects\POO\POO_RACHID_GIMENEZ\POO_Rachid_Gimenez\TestWrapper\bin\Debug\MapDLL.dll
+C:\Users\Alexandre\Documents\Visual Studio 2013\Projects\POO\POO_RACHID_GIMENEZ\POO_Rachid_Gimenez\TestWrapper\bin\Debug\TestWrapper.dll
+C:\Users\Alexandre\Documents\Visual Studio 2013\Projects\POO\POO_RACHID_GIMENEZ\POO_Rachid_Gimenez\TestWrapper\bin\Debug\TestWrapper.pdb
+C:\Users\Alexandre\Documents\Visual Studio 2013\Projects\POO\POO_RACHID_GIMENEZ\POO_Rachid_Gimenez\TestWrapper\bin\Debug\POO_Rachid_Gimenez.dll
+C:\Users\Alexandre\Documents\Visual Studio 2013\Projects\POO\POO_RACHID_GIMENEZ\POO_Rachid_Gimenez\TestWrapper\bin\Debug\POO_Rachid_Gimenez.pdb
+C:\Users\Alexandre\Documents\Visual Studio 2013\Projects\POO\POO_RACHID_GIMENEZ\POO_Rachid_Gimenez\TestWrapper\obj\Debug\TestWrapper.csprojResolveAssemblyReference.cache
+C:\Users\Alexandre\Documents\Visual Studio 2013\Projects\POO\POO_RACHID_GIMENEZ\POO_Rachid_Gimenez\TestWrapper\obj\Debug\TestWrapper.dll
+C:\Users\Alexandre\Documents\Visual Studio 2013\Projects\POO\POO_RACHID_GIMENEZ\POO_Rachid_Gimenez\TestWrapper\obj\Debug\TestWrapper.pdb

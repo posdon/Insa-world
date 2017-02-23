@@ -1,0 +1,47 @@
+Une partie possède une map
+Une partie comporte n joueurs
+Une partie possède un nombre prédifini de tour maximum
+
+Chaque joueur dans une partie choisit une race
+Chaque joueur dans une partie a un nom
+Chaque joueur dans une partie a des unités
+Chaque joueur dans une partie a des points
+
+Chaque map possède un même nombre de tuile de chaque sorte.
+
+
+Une unité possède des points de mouvement (3 par defaut)
+Une unité a des life point, attack point, defence point.
+Chaque unité dans une partie rapporte des points en fonction de la tuile sur laquelle il finit.
+Un race d'entity a un coût de déplacement réduit sur certaines tuiles
+
+
+Il y a 3 instances de races.
+Il y a 3 instances de map.
+
+Les tuiles sont rectangulaires.
+Il y a 4 instances de tuile.
+
+
+Attaque :
+On retire un nombre aléatoire de point de vie au perdant
+Une attaque coûte le nombre de point de déplacement pour aller jusqu'à la case du défenseur
+
+
+Déroulement de la partie :
+Choix du nombre de joueurs.
+CHoix des races.
+Attribution des tuiles de départ aléatoirement.
+	Impossibilité d'avoir plusieurs unités sur la même tuile.
+Attribution aléatoirement du joueur de départ.
+Chaque joueur effectue son tour à tour de rôle.
+
+
+Déroulement d'un tour :
+-Bouger unité
+-Attaquer
+Pas de restriction sur le nombre d'action ni l'ordre.
+
+Fin de tour :
+Réinitialisation des point de mouvement.
+Régénération de 1 life point.
